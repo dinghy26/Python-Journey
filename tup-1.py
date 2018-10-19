@@ -14,6 +14,7 @@ while True:
         #Check user age
         
         if age >= film[choice][0]:
+            # check count of tickets
 
             if film[choice][1]>0:
                 print("enjoy the movie")
